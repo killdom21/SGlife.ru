@@ -61,3 +61,16 @@ body {
     width: 100%;
     max-width: 1366px;
 }
+
+.promo  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.stiker {
+    background: red;
+    width: 300px;
+    height: 400px;
+}
