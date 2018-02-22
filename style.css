@@ -18,12 +18,21 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     height: 50px;
     background: #00a391;
 }
 
 .img_logo {
     margin-left: 250px;
+    width: 50px;
+}
+
+.name_logo {
+    margin: 25%;
+    font-size: 2.2em;
+    color: aliceblue;
 }
 
 .top_menu {
@@ -45,7 +54,7 @@ body {
 }
 
 .top_menu_link:hover {
-    text-shadow: 3px 5px 3px #aaa;
+    text-shadow: -3px 5px 6px #aaa;
 }
 
 .line {
@@ -57,10 +66,25 @@ body {
 .footer {
     height: 20px;
     text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
     max-width: 1366px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(204,204,204,1) 50%, rgba(204,204,204,1) 100%);
+}
+
+.baner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4em;
+    max-width: 1366px;
+    width: 100%;
+    height: 400px;
+    background: url(img/baner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: -3px 5px 6px #aaa;
+    color: #007f6e;
 }
 
 .promo  {
